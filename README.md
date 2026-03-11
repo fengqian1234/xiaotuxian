@@ -1,35 +1,25 @@
-# vue-rabbit
+# 小兔鲜儿 (XiaoTuXian) - 电商实战项目
 
-This template should help get you started developing with Vue 3 in Vite.
+这是一个基于 **Vue 3** 全家桶开发的响应式 B2C 电商前台项目。项目实现了从首页展示、分类筛选到购物车、订单支付的完整电商购物流程。
 
-## Recommended IDE Setup
+## 🌟 项目核心功能
+- **完整购物流**：包含商品详情、加入购物车、下单结算、在线支付（沙箱）及订单管理。
+- **持久化存储**：使用 Pinia 配合持久化插件，确保用户登录状态和购物车数据在刷新后不丢失。
+- **自定义组件**：封装了多个通用业务组件（如图片预览、SKU 选择器、无限加载等）。
+- **性能优化**：实现路由懒加载、图片懒加载及组件按需引入。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 🛠️ 技术栈
+- **框架**: Vue 3 (Composition API)
+- **构建工具**: Vite
+- **状态管理**: Pinia
+- **路由管理**: Vue Router 4
+- **UI 组件库**: Element Plus
+- **网络请求**: Axios
+- **工具库**: VueUse, lodash
 
-## Customize configuration
+## 🚀 快速启动
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. **克隆项目到本地**
+2. **安装依赖**
+   ```bash
+   npm install
